@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LIBRARY ZONE</title>
+  <link rel="stylesheet" type="text/css" href="books.css">
+  <script src="scriptt.js"></script>
+</head>
+<body>
+  <div id="background">
+    <body background="boooks.jpg">
+  <h1>LIBRARY ZONE</h1>
+  <input type="text" id="searchInput" onkeyup="searchBooks()" placeholder="Search for books...">
+  <ul id="bookList">
+    <div class="filters">
+        <label for="author-filter">Filter by Author:</label>
+        <select id="author-filter>"
+            <option value="">All</option>
+         <option value="All">All</option>
+        <option value="J.K Rowling">J.K Rowling</option>
+        <option value="Harper Lee">Harper Lee</option>
+        <option value="Tregarthan">Tregarthan</option>
+        <option value="Kenneth">Kenneth</option>
+        <option value="Henry Williamson">Henry Williamson</option>
+        <option value="Henry Cupling">Henry Cupling</option>
+        <option value="Gavin Maxwell">Gavin Maxwell</option>
+
+      </select>
+      
+      <label for="publication-filter">Filter by Publication:</label>
+      <select id="publication-filter">
+        <option value="">All</option>
+        <option value="Bloomsbury publishing">Bloomsbury publishing</option>
+        <option value="J.B.Lippincott&Co">J.B.Lippincott&Co</option>
+        <option value="cherry publishing">cherry Publishing</option>
+        <option value="red publishing">red publishing</option>
+        <option value="blue publishing">blue publishing</option>
+        <option value="Tom publishing">Tom publishing</option>
+        <option value="winewood Publishing">winewood Publishing</option>
+
+      </select>
+    </div>
+    <h2>Add a Book</h2>
+  <form id="addBookForm">
+    <label for="title">Title:</label>
+    <input type="text" id="title" required>
+    <label for="author">Author:</label>
+    <input type="text" id="author" required>
+    <label for="publication">Publication:</label>
+    <input type="text" id="publication" required>
+    <button type="submit">Add Book</button>
+  </form>
+    <li>
+      <div class="book-info">
+        <h2 class="book-title">Harry Potter and the Philosopher's Stone</h2>
+        <p class="book-author">J.K. Rowling</p>
+        <p class="book-publication">Bloomsbury Publishing</p>
+      </div>
+      <div class="book-actions">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </li>
+    <li>
+      <div class="book-info">
+        <h2 class="book-title">To Kill a Mockingbird</h2>
+        <p class="book-author">Harper Lee</p>
+        <p class="book-publication">J. B. Lippincott & Co.</p>
+      </div>
+      <div class="book-actions">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      
+    </li>
+    <li>
+        <div class="book-info">
+          <h2 class="book-title">Tarka</h2>
+          <p class="book-author">Henry Willamson</p>
+          <p class="book-publication">cherry publishing</p>
+        </div>
+        <div class="book-actions">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </li>
+      <li>
+        <div class="book-info">
+          <h2 class="book-title">Ring of Bright</h2>
+          <p class="book-author">Henry cupling</p>
+          <p class="book-publication">red publishing</p>
+        </div>
+        <div class="book-actions">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </li>
+      <li>
+        <div class="book-info">
+          <h2 class="book-title">Edal</h2>
+          <p class="book-author">Gavin Maxwell</p>
+          <p class="book-publication">blue publishing</p>
+        </div>
+        <div class="book-actions">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </li>
+      <li>
+        <div class="book-info">
+          <h2 class="book-title">The Wind</h2>
+          <p class="book-author">Kenneth</p>
+          <p class="book-publication">Tom publishing</p>
+        </div>
+        <div class="book-actions">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </li>
+      <li>
+        <div class="book-info">
+          <h2 class="book-title">Life Story</h2>
+          <p class="book-author">Tregarthan</p>
+          <p class="book-publication">winewood publishing</p>
+        </div>
+        <div class="book-actions">
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </li>
+    <!-- Add more books here -->
+    
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items">
+              <!-- Cart items will be dynamically added here -->
+            </ul>
+            <button id="checkout-button">Checkout</button>
+          </div>
+        </div>
+      
+        <script src="script.js"></script>
+
+        </label>
+    </div>
+  </ul>
+
+ 
+  </form>
+</body>
+</html>

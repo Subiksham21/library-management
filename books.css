@@ -1,0 +1,80 @@
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1, h2 {
+  text-align: center;
+  color:rgb(6, 6, 52);
+  font-style:bold;
+  font-size: 28;
+}
+
+.search {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size:18px;
+}
+
+.filters {
+  margin-bottom: 20px;
+  font-size:18px;
+  font-style:bold;
+}
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.book-actions {
+  display: flex;
+  align-items: left;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#cart-items li {
+  margin-bottom: 10px;
+}
+
+#checkout-button {
+  margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .book-title {
+    font-size: 25px;
+    font-weight: italic;
+    color:rgb(19, 30, 6);
+    margin-bottom: 5px;
+  }
+  
+  .book-author,
+  .book-publication {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 2px;
+  }
+  
+  input,
+  button {
+    margin-bottom: 10px;
+  }
+  
+  h1, h2 {
+    text-align:left;
+  }
